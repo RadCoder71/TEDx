@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    font-family: 'Lato',sans-serif;
+    overflow-x: hidden; 
+     
+}
+
+.navbar{    
+    background: rgba(0,0,0)!important;
+}
+
+.navbar img{
+    max-width:200px ;    
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color: rgb(230, 43, 30) !important;
+}
+
+.active .nav-link{
+    color: rgb(230, 43, 30) !important;
+}
+
+.menu-right-btn{
+    background-color: transparent !important;       
+    color: white !important;
+}
+
+.menu-right-btn:hover{
+    color: white !important;
+    background-color: rgb(230, 43, 30) !important;
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 32%;
+    z-index: 1;
+}
+
+.title{
+    font-size: 6rem;
+    font-family: 'Righteous', cursive;
+    color: rgb(230, 43, 30) !important;
+}
+
+.quote{    
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+    color: white !important;
+}
+
+.socialicon{    
+    max-width: 36px;    
+}
+
+.sociallink{
+    margin:1%;
+    margin-left: 0;
+}
+
+.home-inner{
+    background-image: url("/images/brochuredraft2in.png");     
+}
+
+.tickets-btn{    
+    margin-top: 2%;
+    margin-bottom: 1.5% ;
+    width: 20%;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+}
+
+.tickets-btn:hover{    
+    background-color:  rgb(155, 25, 15) !important;;    
+    color: white;
+}
+
+.date{    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    overflow: hidden;
+    margin: 0;    
+}
+
+.circle{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid rgb(230, 43, 30);
+    margin: 0 3rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
+}
+
+.circle-date span{
+        font-size: 2rem;
+}
+
+.circle span{
+    display: block;
+    padding-top:1rem ;
+    font-size: 3.5rem;    
+}
+
+.fixed{
+    background-image: url(/images/sx1.png);
+}
+
+.fixed-countdown{
+    background-image: url(/images/925.jpg);
+}
+
+.about{
+    color: white;
+}
+
+.tedx-video, .promo-video{
+    height: 400px;
+    width : 320px; /*520*/
+}
+
